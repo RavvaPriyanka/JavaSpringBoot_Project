@@ -1,16 +1,16 @@
 package assignment1;
 import java.util.Scanner;
 class BankDetails {
-private String name;
-private String accno;
-private String acc_type;
-private long balance;
-private String createdDate;
-private String status;
-private String city;
-private String state;
-private int zipcode;
-Scanner sc = new Scanner(System.in);
+	private String name;
+	private String accno;
+	private String acc_type;
+	private long balance;
+	private String createdDate;
+	private String status;
+	private String city;
+	private String state;
+	private int zipcode;
+	Scanner sc = new Scanner(System.in);
 
 
 public void openAccount() {
