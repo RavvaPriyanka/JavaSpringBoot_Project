@@ -6,17 +6,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserService {
+public class AccountService {
 	@Autowired
-	UserRepository repository;
-	public void save(User user) {
-		repository.save(user);
-		System.out.println(user);
-		
-		
-		
+	AccountRepository repository;
+	public void save(Account account) {
+		repository.save(account);
+		System.out.println(account);
+			
 	}
-	public List<User> getUsers() {
+	public List<Account> getUserAccounts() {
 		return repository.findAll();
 		
 	}
